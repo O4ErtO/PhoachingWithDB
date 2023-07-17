@@ -14,6 +14,9 @@
 		FA50AB6B2A614CA800EE7BCB /* PhoachingWithDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50AB6A2A614CA800EE7BCB /* PhoachingWithDBTests.swift */; };
 		FA50AB752A614CA800EE7BCB /* PhoachingWithDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50AB742A614CA800EE7BCB /* PhoachingWithDBUITests.swift */; };
 		FA50AB772A614CA800EE7BCB /* PhoachingWithDBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50AB762A614CA800EE7BCB /* PhoachingWithDBUITestsLaunchTests.swift */; };
+		FA50AB842A61512100EE7BCB /* ForMyPhoachServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50AB832A61512000EE7BCB /* ForMyPhoachServer.swift */; };
+		FA82BE112A61871500238D80 /* ForAuthorPhoachServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82BE102A61871500238D80 /* ForAuthorPhoachServer.swift */; };
+		FA82BE132A618B2F00238D80 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82BE122A618B2F00238D80 /* SegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,10 @@
 		FA50AB702A614CA800EE7BCB /* PhoachingWithDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoachingWithDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA50AB742A614CA800EE7BCB /* PhoachingWithDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoachingWithDBUITests.swift; sourceTree = "<group>"; };
 		FA50AB762A614CA800EE7BCB /* PhoachingWithDBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoachingWithDBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA50AB832A61512000EE7BCB /* ForMyPhoachServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForMyPhoachServer.swift; sourceTree = "<group>"; };
+		FA82BE0F2A61792500238D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA82BE102A61871500238D80 /* ForAuthorPhoachServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForAuthorPhoachServer.swift; sourceTree = "<group>"; };
+		FA82BE122A618B2F00238D80 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +101,12 @@
 		FA50AB582A614CA700EE7BCB /* PhoachingWithDB */ = {
 			isa = PBXGroup;
 			children = (
+				FA82BE0F2A61792500238D80 /* Info.plist */,
 				FA50AB592A614CA700EE7BCB /* PhoachingWithDBApp.swift */,
 				FA50AB5B2A614CA700EE7BCB /* ContentView.swift */,
+				FA82BE122A618B2F00238D80 /* SegmentedControl.swift */,
+				FA50AB832A61512000EE7BCB /* ForMyPhoachServer.swift */,
+				FA82BE102A61871500238D80 /* ForAuthorPhoachServer.swift */,
 				FA50AB5D2A614CA700EE7BCB /* Assets.xcassets */,
 				FA50AB5F2A614CA700EE7BCB /* Preview Content */,
 			);
@@ -259,6 +270,9 @@
 			files = (
 				FA50AB5C2A614CA700EE7BCB /* ContentView.swift in Sources */,
 				FA50AB5A2A614CA700EE7BCB /* PhoachingWithDBApp.swift in Sources */,
+				FA82BE112A61871500238D80 /* ForAuthorPhoachServer.swift in Sources */,
+				FA82BE132A618B2F00238D80 /* SegmentedControl.swift in Sources */,
+				FA50AB842A61512100EE7BCB /* ForMyPhoachServer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +439,7 @@
 				DEVELOPMENT_TEAM = D95N3D73CL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoachingWithDB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +469,7 @@
 				DEVELOPMENT_TEAM = D95N3D73CL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoachingWithDB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
